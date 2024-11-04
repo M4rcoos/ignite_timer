@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "@rocketseat/eslint-config/react"
+  ],
+  "plugins": ["simple-import-sort"],
+  "rules": {
+    "simple-import-sort/imports": "error",
+    "no-unused-vars": "warn",
+    "camelcase": "off",
+    "@typescript-eslint/no-duplicate-enum-values": "off"
+  }
+}
