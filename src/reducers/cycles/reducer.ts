@@ -1,4 +1,3 @@
-import { cy } from 'date-fns/locale'
 import { produce } from 'immer'
 
 import { ActionTypes } from './action'
